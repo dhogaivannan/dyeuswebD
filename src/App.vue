@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <dropdown />
+    <cart-b />
+    <buy-t />
+    <detail />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Detail from "./components/main.vue";
+import cartB from "./components/addtocart.vue";
+import buyT from "./components/save.vue";
+import dropdown from "./components/dropdown.vue";
 export default {
-  name: 'App',
+  name: "app",
   components: {
-    HelloWorld
-  }
-}
+    Detail,
+    cartB,
+    buyT,
+    dropdown,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DM Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0px;
 }
 </style>
