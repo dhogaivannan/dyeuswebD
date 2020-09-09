@@ -12,9 +12,7 @@
             :class="{ current: item === value }"
             v-for="item in list"
             @click="select(item)"
-          >
-            {{ item }}
-          </li>
+          >{{ item }}</li>
         </ul>
       </div>
     </div>

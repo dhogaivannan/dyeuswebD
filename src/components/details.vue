@@ -6,11 +6,7 @@
       <div class="item">Ingredients</div>
     </div>
     <div class="information">
-      <div>
-        An amino acid found in tea, L-theanine is similar to glutamic acid, an
-        excitatory neurotransmitter found in the central nervous system. A
-        precursor to acetylcholine
-      </div>
+      <div></div>
     </div>
   </div>
 </template>
